@@ -158,7 +158,7 @@ class Party extends Application {
     static get defaultOptions() {
         const options = super.defaultOptions;
         options.title = 'Party Overview';
-        options.template= "public/modules/party/templates/app.html";
+        options.template= "public/modules/fvtt-party/templates/app.html";
         options.width = 500;
         options.height = "auto";
         return options;
