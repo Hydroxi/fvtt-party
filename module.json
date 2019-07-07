@@ -8,7 +8,7 @@
     "scripts": ["./scripts/index.js"],
     "styles": ["./css/style.css"],
     "packs": [],
-    "url": "https://github.com/kakaroto/Beyond20",
-    "manifest": "https://raw.githubusercontent.com/kakaroto/Beyond20/master/FVTT-module/beyond20/module.json",
-    "download": "https://raw.githubusercontent.com/kakaroto/Beyond20/master/FVTT-module/beyond20.zip"
+    "url": "https://github.com/shwill/fvtt-party",
+    "manifest": "https://github.com/shwill/fvtt-party/raw/master/module.json",
+    "download": "https://github.com/shwill/fvtt-party/raw/master/fvtt-party.zip"
 }
