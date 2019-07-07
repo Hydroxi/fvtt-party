@@ -1,0 +1,25 @@
+<div>
+    <table id="party">
+        <tr>
+            <th style="width: 20%"" rowspan="2">Name</th>
+            <th rowspan="2"><i class="fas fa-heart"></i> HP</th>
+            <th rowspan="2"><i class="fas fa-shield-alt"></i> AC</th>
+            <th colspan="3">Passive</th>
+        </tr>
+        <tr>
+            <th  class="thick subcolumn">Perception</th>
+            <th  class="thick subcolumn">Investigation</th>
+            <th class="thick subcolumn">Insight</th>
+        </tr>
+        {{#each data}}
+        <tr>
+            <td style="width: 20%; text-align: left"><span class="name">{{ this.name }}</span></td>
+            <td><span class="value">{{ this.hp.value }}/{{ this.hp.max }}</span></td>
+            <td><span class="value">{{ this.ac }}</span></td>
+            <td><span class="value">{{ this.passivePerception }}</span></td>
+            <td><span class="value">{{ this.passiveInvestigation }}</span></td>
+            <td><span class="value">{{ this.passiveInsight }}</span></td>
+        </tr>
+        {{/each}}
+    </table>
+</div>

@@ -1,0 +1,14 @@
+{
+    "name": "fvtt-party",
+    "title": "Party Overview",
+    "description": "Provides an overview about critical stats of PCs in the current world",
+    "version": "0.1",
+    "author": "Sebastian Will (shwill)",
+    "systems": ["dnd5e"],
+    "scripts": ["./scripts/index.js"],
+    "styles": ["./css/style.css"],
+    "packs": [],
+    "url": "https://github.com/kakaroto/Beyond20",
+    "manifest": "https://raw.githubusercontent.com/kakaroto/Beyond20/master/FVTT-module/beyond20/module.json",
+    "download": "https://raw.githubusercontent.com/kakaroto/Beyond20/master/FVTT-module/beyond20.zip"
+}
