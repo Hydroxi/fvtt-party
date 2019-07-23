@@ -36,4 +36,8 @@
     font-weight: regular;
     background-color: #eee;
   }
- 
+
+/*fix hidden directory footer*/
+#actors.sidebar-tab .directory-list{
+height: calc(100% - 80px);
+}
